@@ -27,4 +27,5 @@
 //   nombres = prompt("ingrese nombre y apellido del pasajero");
 // }
 // let precioTotal = 500 * compra;
-// alert(`los pasajeros son ${compra}. El precio total es: $${precioTotal}ARS`)
+// alert(`los pasajeros son ${compra}. El precio total es: $${precioTotal}ARS`);
+// 
