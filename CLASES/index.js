@@ -70,20 +70,24 @@ let edad = 45;
 // producto1.vender();
 // console.log(producto1);
 
-let cantidadPasajes = 45;
-let compra = prompt("Ingrese cantidad de pasajes a comprar");
-if (compra <= 0 || "") {
-  alert("Usted no ha ingresado ninguna cantidad");
-}
-while (cantidadPasajes >= 0) {
-  if (cantidadPasajes >= 0) {
-    let resultado = cantidadPasajes - compra;
-    alert(
-      `Usted ha comprado ${compra} cantidad de pasajes, quedan ${resultado} pasajes`
-    );
-    cantidadPasajes = resultado--;
-  } else {
-    alert("No quedan asientos disponibles");
-  }
-  compra = parseInt(prompt("Ingrese cantidad de pasajes a comprar"));
-}
+
+
+// EJERCICIO 1 PRE-ENTREGA-1
+// --------------------------------
+// let cantidadPasajes = 45;
+// let compra = prompt("Ingrese cantidad de pasajes a comprar");
+// if (compra <= 0 || "") {
+//   alert("Usted no ha ingresado ninguna cantidad");
+// }
+// while (cantidadPasajes >= 0) {
+//   if (cantidadPasajes >= 0) {
+//     let resultado = cantidadPasajes - compra;
+//     alert(
+//       `Usted ha comprado ${compra} cantidad de pasajes, quedan ${resultado} pasajes`
+//     );
+//     cantidadPasajes = resultado--;
+//   } else {
+//     alert("No quedan asientos disponibles");
+//   }
+//   compra = parseInt(prompt("Ingrese cantidad de pasajes a comprar"));
+// }
